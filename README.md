@@ -38,7 +38,7 @@ First, just type:
 
 to generate the Makefile.  Then, just
 
-   make
+    make
 
 and you should have a QtVideo executable!
 
