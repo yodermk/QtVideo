@@ -26,3 +26,19 @@ Here is the first "real" video I produced with this method - a short photo docum
 trip to Churchill, Manitoba in winter!
 [YouTube link](http://youtu.be/N1-njDU4pZU)
 
+Building
+--------
+
+It requires Qt 5.2 for the command line parser stuff.  If you remove that it might build on Qt 4, but
+I don't really care.  I use Qt 5 and don't want to limit myself to Qt 4 stuff in future additions.
+
+First, just type:
+
+    qmake
+
+to generate the Makefile.  Then, just
+
+   make
+
+and you should have a QtVideo executable!
+
